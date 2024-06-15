@@ -1,6 +1,4 @@
 <template>
-  <h1>index.vue</h1>
-  <AtomsModal />
   <v-container>
     <v-data-table :headers="headers" :items="items" :items-per-page="5">
       <template #headers>

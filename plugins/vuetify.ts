@@ -10,9 +10,12 @@ export default defineNuxtPlugin((app) => {
     components,
     directives,
     theme: {
-      defaultTheme: 'dark',
       themes: {
-        light: {},
+        light: {
+          colors: {
+            'surface-variant': '#ff0000',
+          },
+        },
       },
     },
   });

@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     },
     //...
   ],
-  components: [{ path: "~/components/atoms", prefix: "Atoms" }, "~/components"],
+  components: [{ path: "~/components/atoms", prefix: "Atoms" },
+    { path: "~/components/organisms", prefix: "Orgs" }, "~/components"],
   vite: {
     vue: {
       template: {
